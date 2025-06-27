@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white p-6">
-      <h1 className="text-3xl font-bold text-center">Dictionary App</h1>
+      <h1 className="text-3xl font-bold text-center">The Words</h1>
       <SearchBox onSearch={handleSearch} />
 
       <div className="mt-8 max-w-xl mx-auto">
